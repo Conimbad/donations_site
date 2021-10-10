@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::resource('donation', App\Http\Controllers\DonationController::class)->middleware('auth');
+Route::resource('institution', App\Http\Controllers\InstitutionController::class)->middleware('auth');
+
+Route::get('/home', [App\Http\Controllers\DonationController::class, 'index'])->name('home');
