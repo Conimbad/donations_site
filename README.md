@@ -2,6 +2,8 @@
 Just go to the route localhost:8000/api/request
 and you are going to see all the JSON data.
 
+## Adding new Institutions
+To add a new institution you need to go to this route localhots:80000/public/institution/create
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
